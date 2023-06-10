@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+// import React, { useState, useEffect } from 'react';
 import Typewriter from "typewriter-effect";
 import { Row, Col, Container } from 'react-bootstrap';
 import {ArrowRightCircle} from 'react-bootstrap-icons';
-import saturn from '../assets/saturn.png';
+// import saturn from '../assets/saturn.png';
 import './Banner.css';
 
 
