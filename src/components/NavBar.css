@@ -1,0 +1,65 @@
+a {
+  text-decoration: none !important;
+}
+
+.navbar {
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.navbar.scrolled {
+  background-color: rgb(204, 108, 108); /* Additional styling when scrolled */
+}
+
+
+.icon-white {
+  color: #000000;
+}
+
+.navbar-brand {
+  font-family: monospace;
+  color: rgb(0, 0, 0);
+  font-size: 28px !important;
+  font-weight: bold;
+  
+}
+
+.vvd {
+  background-color: white;
+  margin-top: 2px;
+}
+
+.navbar-text a{
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0px 20px;
+  font-family: monospace;
+}
+
+.navbar-text a:hover {
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.connect {
+  display: flex;
+  padding: 2px 2px;
+  margin: 2px 2px;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icon {
+  display: flex;
+  flex-direction: row;
+  padding: 3px 16px;
+  color: black;
+
+}
+
+

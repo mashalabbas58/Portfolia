@@ -1,0 +1,54 @@
+
+.banner {
+  position: relative;
+  z-index: 1;
+  background: url('../assets/bg23.png') center top/cover no-repeat;
+  /* color: white; */
+  height: 100vh; /* Adjust the height as desired */
+  margin-top: -85px; /* Add negative margin to overlap with the navbar */
+  padding-top: 100px; /* Add padding to create space between the content and the navbar */
+}
+
+
+
+
+.animated-saturn {
+    position: relative;
+    animation-name: moveUpDown;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes moveUpDown {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(0, -20px);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  
+
+  .tagline {
+  margin-top: 20px; /* Adjust the value as needed */
+}
+
+h1 {
+  margin-top: 10px; /* Adjust the value as needed */
+}
+
+p {
+  margin-top: 20px; /* Adjust the value as needed */
+}
+
+.vvd {
+  margin-top: 30px; /* Adjust the value as needed */
+}
+
+.animated-saturn {
+  margin-top: 40px; /* Adjust the value as needed */
+}
